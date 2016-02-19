@@ -38,3 +38,4 @@
 
 ## その他、アピールポイント
 - [RSpec](http://rspec.info/)を用いたテストを書いています。
+- その他諸々を[Wiki](https://github.com/kojisato118/codecheck-998/wiki)にまとめる予定です。
