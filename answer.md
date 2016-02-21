@@ -72,6 +72,5 @@ APIの利用(自身の、qiita、LiSA)やWebスクレイピングなどのデー
 [RSpec](http://rspec.info/)を用いたテストを書いています。
 ```spec/``` にあります。結合テストは用意していませんが、modelとapiに関してのテストを用意しています。
 
-
-
-- その他諸々を[Wiki](https://github.com/kojisato118/codecheck-998/wiki)にまとめる予定です。
+### Wikiの利用
+その他仕様などを[Wiki](https://github.com/kojisato118/codecheck-998/wiki)にまとめる予定です。
