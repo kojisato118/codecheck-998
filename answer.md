@@ -53,9 +53,9 @@
   - 管理者権限
    - 投稿ページや管理画面など一般に公開すべきでないページにauthenticationを加えました
  - 定期バッチ処理
-   - ページを表示する際に毎回外部のapiを叩くのは非効率なので、1時間ごとにcronでデータを取得するようにしました。
-　 - local環境では[wheneber](https://github.com/javan/whenever)を利用しました
-　 - herokuではheroku schedulerを利用しました
+   - ページを表示する際に毎回外部のapiを叩くのは非効率なので、1時間ごとにcronでデータを取得するようにしました
+    - local環境では[wheneber](https://github.com/javan/whenever)を利用しました
+     - herokuではheroku schedulerを利用しました
 
 ## その他、アピールポイント
 ### 様々なコンテンツ
@@ -65,7 +65,7 @@
 APIの利用(自身の、qiita、LiSA)やWebスクレイピングなどのデータ取得のための技術、masonry.jsやjquery、cssなどデータを表現する技術など様々な技術を利用するよう挑戦しました。
 
 ### セキュリティへの配慮
-投稿画面や管理画面はグローバルに公開されるべきでないためログインを必須にしました。また、urlに対して```javascript:alert('XSS');//http://bitarts.jp/```のような値が入らないようなvalidationをかけました。   
+投稿画面や管理画面はグローバルに公開されるべきでないためログインを必須にしました。また、urlに対して```javascript:alert('XSS');//http://example.com/```のような値が入らないようなvalidationをかけました。   
 ただし、apiのpostに対しても認証を用意したかったですが、未実装です。
 
 ### 独自のテスト
